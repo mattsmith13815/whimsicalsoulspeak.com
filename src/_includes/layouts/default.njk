@@ -15,10 +15,10 @@ title: whimsicalsoulspeak.com<
       {{css | postcss | safe}}
     </style>
   </head>
-  <body>
+  <body class="bg-blue-950">
     {% include 'nav.njk' %}
-
-    {{ content | safe }}
-
+    <div class="h-48 bg-white container mx-auto p-4">
+        {{ content | safe }}
+    </div>
   </body>
 </html>
