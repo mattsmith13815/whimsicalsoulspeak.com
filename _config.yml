@@ -4,25 +4,17 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.whimsicalsoulspeak.com" # the base hostname & protocol for your site
 #theme: jekyll-theme-minimal
+remote_theme: pages-themes/cayman@v0.2.0
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
 
-# Author settings
-#author:
-#  name: Your Name
-#  email: your-email@example.com
-
-# Social links
-#social:
-#  twitter: your_twitter_username
-#  github: your_github_username
-
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
+  - jekyll-remote-theme
+  
 # Permalinks
 permalink: /:year/:month/:day/:title.html
