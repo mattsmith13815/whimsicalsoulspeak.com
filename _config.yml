@@ -1,1 +1,25 @@
+title: Whimsical Soul Speak
+description: > # this means to ignore newlines until "baseurl:"
+  Welcome to my blog! Here I share my thoughts on various topics.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.whimsicalsoulspeak.com" # the base hostname & protocol for your site
 theme: jekyll-theme-minimal
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Author settings
+#author:
+#  name: Your Name
+#  email: your-email@example.com
+
+# Social links
+#social:
+#  twitter: your_twitter_username
+#  github: your_github_username
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
