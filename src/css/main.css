@@ -1,14 +1,19 @@
-html, body {
-  /* background-color: #092d1d; */
-}
-
 :root {
-  --myTitle-color: #000000; /* Light mode h1 color */
+  :root {
+    --myTitle-color-light: #000000; /* Light mode color */
+    --myTitle-color-dark: #ffffff; /* Dark mode color */
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --myTitle-color: #ffffff; /* Dark mode h1 color */
+    --myTitle-color: var(--myTitle-color-dark);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --myTitle-color: var(--myTitle-color-light);
   }
 }
 
