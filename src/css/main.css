@@ -2,8 +2,18 @@ html, body {
   /* background-color: #092d1d; */
 }
 
+:root {
+  --myTitle-color: #000000; /* Light mode h1 color */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --myTitle-color: #ffffff; /* Dark mode h1 color */
+  }
+}
+
 .myTitle {
-  color: white;
+  color: var(--myTitle-color);
   text-decoration: none;
 }
 
