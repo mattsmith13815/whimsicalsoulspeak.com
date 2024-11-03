@@ -1,22 +1,20 @@
 <!doctype html>
 <html lang="en">
   {% include 'head.njk' %}
+  <style>
+    html, body {
+      background-color: {{ bgcolor }}
+    }
+  </style>
   <body>
     {% include 'nav.njk' %}
     <main class="container">
         <article>
+            <img src="{{ image }}" class="rounded-image float-right"/>
             <h1>{{ title }}</h1>
             <p>{{ date }}</p>
             {{ content | safe }}
         </article>
     </main>
   </body>
-</html>
-
-
-
-</head>
-<body>
-
-</body>
 </html>

@@ -1,0 +1,18 @@
+html, body {
+  /* background-color: #092d1d; */
+}
+
+.myTitle {
+  color: white;
+  text-decoration: none;
+}
+
+.rounded-image {
+  border-radius: 15px; /* Adjust the value to change the roundness */
+}
+
+.float-right {
+    float: right;
+    margin: 0 0 10px 10px; /* Adjust margins as needed */
+}
+
