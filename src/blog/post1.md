@@ -20,4 +20,4 @@ She is a phoenix.
 
 She is Fire.
 
-he is Red. 
+She is Red.
