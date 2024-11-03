@@ -4,6 +4,8 @@ module.exports = function(eleventyConfig) {
     return collectionApi.getFilteredByGlob("src/blog/*.md");
   });
 
+  eleventyConfig.addPassthroughCopy("src/images");
+
   return {
     dir: {
       input: "src",
